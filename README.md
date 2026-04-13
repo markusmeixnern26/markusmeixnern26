@@ -18,7 +18,7 @@ Pricing adjusts automatically per model (Opus / Sonnet / Haiku).
 
 ## Agents
 
-Six specialized agents installed globally (`~/.claude/agents/`), inspired by [akashkedian26/claude-code-workspace](https://github.com/akashkedian26/claude-code-workspace).
+Six specialized agents installed globally (`~/.claude/agents/`)
 
 | Agent | Purpose | Triggers |
 |---|---|---|
