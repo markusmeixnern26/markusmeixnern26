@@ -1,24 +1,12 @@
 # Claude Code Workspace Setup
 
 A personal AI workspace built on [Claude Code](https://claude.ai/code), configured for product, data, and design workflows.
-
----
-
-## Status Line
-
-Every session displays context usage and cost in real time:
-
-```
-[███░░░░░░░] 30%  cost: $0.0312
-```
-
-Pricing adjusts automatically per model (Opus / Sonnet / Haiku).
-
+by Markus Meixner
 ---
 
 ## Agents
 
-Six specialized agents installed globally (`~/.claude/agents/`)
+Six specialized agents installed globally (`~/.claude/agents/`) inspired by Akash Kedia
 
 | Agent | Purpose | Triggers |
 |---|---|---|
@@ -42,3 +30,15 @@ Request → Router detects intent
 - PRDs, user flows, research → `~/ai/projects/product-planning/`
 - SQL queries, analysis → `~/DataQueries/<question-slug>/`
 - FigJam boards → returned as board URLs
+
+---
+
+## Status Line
+
+Every session displays context usage and cost in real time:
+
+```
+[███░░░░░░░] 30%  cost: $0.0312
+```
+
+Pricing adjusts automatically per model (Opus / Sonnet / Haiku).
